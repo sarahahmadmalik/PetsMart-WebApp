@@ -39,7 +39,7 @@ const Cart = () => {
                 <th>Price</th>
                 <th>Quantity</th>
                 <th>Total</th>
-                <th></th> {/* Empty column for remove button */}
+                <th></th> 
               </tr>
             </thead>
             <tbody>

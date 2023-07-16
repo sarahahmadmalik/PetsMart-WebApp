@@ -27,7 +27,7 @@
   }
   
   .sales-banner {
-    background-image: url('../assets/sales-banner.png');
+    background-image: url('../../public/assets/sales-banner.png');
     background-position: right;
     height: 250px;
     margin: 0 2rem;
@@ -62,7 +62,7 @@
   }
   
   .sales-banner2 {
-    background-image: url('../assets/banner2.png');
+    background-image: url('../../public/assets/banner2.png');
     background-position: center;
     background-size: cover;
     margin: 0 2rem;

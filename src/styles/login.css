@@ -16,6 +16,35 @@
   overflow: none;
 }
 
+.input-container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+  
+}
+
+
+
+
+.input-container div #usernameField{
+  width: 96%;
+
+}
+
+.sign {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-container div{
+  width: 100%;
+  margin: 0;
+}
+
+
 .left-side {
   flex: 1;
   display: flex;
@@ -34,12 +63,13 @@
 }
 
 .left-side.login{
-  background-image: url('../assets/loginBanner.png');
+  background-image: url('../../public/assets/loginBanner.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-width: 55%;
 }
+
 
 .right-side.Login{
   background-color: #fff;
@@ -48,7 +78,7 @@
 
 .right-side.Signup{
   min-width: 55%;
-  background-image: url(../assets//bannerSignup.png);
+  background-image: url(../../public/assets//bannerSignup.png);
   background-size: contain;
   background-size: contain;
   background-color: #EAEBF0;
@@ -68,18 +98,24 @@
   font-size: 1.7rem;
   margin-bottom: .5rem;
 }
+
 .right-side p{
   font-size: 1.3rem;
   margin-bottom: 1rem;
 }
 
-.left-side h2{
-  font-size: 1.7rem;
+.left-side.signup{
+  min-width: 58%;
+}
+
+.left-side.signup h2{
+  font-size: 1.4rem;
   margin-bottom: .5rem;
+  
 }
 .left-side p{
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  margin-bottom: .5rem;
 }
 
 .usernamelabel {
@@ -91,9 +127,9 @@
 
 #usernameField {
   display: block;
-  width: 80%;
+  width: 100%;
   height: 40px;
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
   background-color: #e2dede;
   border-radius: 10px;
   border: 2px solid #e2dede;

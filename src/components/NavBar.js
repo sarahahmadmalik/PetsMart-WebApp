@@ -9,6 +9,7 @@ import {library} from "@fortawesome/fontawesome-svg-core";
 import {CartContext} from '../components/CartContext';
 library.add(faCartShopping, faChevronDown, faUser);
 
+
 function NavBar() {
     const [isOpen, setOpen] = useState(false);
     const [isDropdownOpen, setDropdownOpen] = useState(false);

@@ -1,6 +1,6 @@
 .curved {
   position: relative;
-  background-image: linear-gradient(to left bottom, rgba(70, 73, 89, 0.559), rgba(82, 83, 96, 0.454), rgba(89, 90, 100, 0.427), rgba(95, 95, 105, 0.386), rgba(97,97,106,0.62)), url('../assets/pharmacy-banner1.jpg');
+  background-image: linear-gradient(to left bottom, rgba(70, 73, 89, 0.559), rgba(82, 83, 96, 0.454), rgba(89, 90, 100, 0.427), rgba(95, 95, 105, 0.386), rgba(97,97,106,0.62)), url('../../public/assets/pharmacy-banner1.jpg');
   background-position: bottom;
   background-size: cover;
   height: 65vh;

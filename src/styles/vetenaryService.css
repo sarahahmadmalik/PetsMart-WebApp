@@ -63,7 +63,7 @@ font-weight: lighter;
 
 
 .services-banner{
-  background-image: url('../assets/service-banner.png');
+  background-image: url('../../public/assets/service-banner.png');
   background-position: center;
   background-size: cover;
   margin: 2rem 2rem;
@@ -155,7 +155,7 @@ color: white;
 
 .bgBanner{
 z-index: -1111;
-background-image: url('../assets/cuteBG.png');
+background-image: url('../../public/assets/cuteBG.png');
 background-attachment: fixed;
 
 }

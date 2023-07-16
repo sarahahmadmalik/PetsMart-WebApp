@@ -40,9 +40,10 @@ const Checkout = () => {
   };
 
   const handleStageChange = (stage) => {
-    setActiveStage(stage);
-    console.log(stage);
-  };
+    if (stage < activeStage) {
+      setActiveStage(stage);
+    }
+  }
 
   const handlePageNavigate = () => {
     pageNavigate('../Cart');
@@ -75,6 +76,8 @@ const Checkout = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    setActiveStage(prevState => prevState + 1);
 
     // Perform your checkout logic here
     // You can access the form data from the state variable (formData)
@@ -248,7 +251,8 @@ const Checkout = () => {
      </form>
       )}
      {activeStage === 2 && (
-          <div className="shipping-method">
+      <form className='shipping-method' onSubmit={handleSubmit}>
+        
             <h2 className="shipping-method-heading">Shipping Method</h2>
             <div className="shipping-options">
               <div className="shipping-option first">
@@ -274,11 +278,12 @@ const Checkout = () => {
               <span className="return-link" onClick={() => handleStageChange(1)}>
                 &lt; Return to Customer Info
               </span>
-              <button className="form-submit" type="button" onClick={() => handleStageChange(3)}>
+              <button className="form-submit" type="submit" >
                 Continue to Payment Method
               </button>
             </div>
-          </div>
+        
+          </form>
         )}
         
 {activeStage === 3 && (

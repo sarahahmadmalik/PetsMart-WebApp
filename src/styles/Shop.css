@@ -7,7 +7,7 @@
     left: 0;
     width: 100%;
     height: 45%;
-    background-image: linear-gradient(to left bottom, #404354c3, #525360b1, #595a64ad, #5f5f6982, #61616a9e), url('../assets/banner3cpy.jpg');    background-repeat: no-repeat;
+    background-image: linear-gradient(to left bottom, #404354c3, #525360b1, #595a64ad, #5f5f6982, #61616a9e), url('../../public/assets/banner3cpy.jpg');    background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
     background-attachment:scroll;
@@ -572,7 +572,7 @@
   }
 
   .shop-banner{
-    background-image: url('../assets/Pawbg.jpg');
+    background-image: url('../../public/assets/Pawbg.jpg');
     background-position: center;
     background-size: cover;
     height: 130px;
